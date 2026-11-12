@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giám sát bể nuôi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Hệ thống giám sát bể nuôi</h1>
+    <p>Giao diện mẫu — chưa kết nối MQTT.</p>
+
+    <section class="cards">
+      <article class="card">
+        <h2>Mực nước / khoảng cách</h2>
+        <p id="distance">-- m</p>
+      </article>
+      <article class="card">
+        <h2>Nhiệt độ nước</h2>
+        <p id="temperature">-- °C</p>
+      </article>
+    </section>
+
+    <section class="controls">
+      <h2>Điều khiển thủ công</h2>
+      <button id="pumpOn" type="button">Bật máy bơm</button>
+      <button id="pumpOff" type="button">Tắt máy bơm</button>
+      <button id="valveOn" type="button">Mở van xả</button>
+      <button id="valveOff" type="button">Đóng van xả</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

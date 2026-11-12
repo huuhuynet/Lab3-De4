@@ -1,0 +1,1 @@
+# Ghi tên các thư viện Arduino cần thiết, mỗi thư viện một dòng.
